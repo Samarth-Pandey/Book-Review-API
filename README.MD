@@ -71,6 +71,8 @@ A RESTful API for managing books and reviews, built with Node.js, Express, and P
 
     npm run dev
 
+5. Make sure you have PostgreeSQL installed and a databse name "book_review_db" is created.
+
 
 # API Endpoints
 
