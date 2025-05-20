@@ -76,21 +76,21 @@ A RESTful API for managing books and reviews, built with Node.js, Express, and P
 
 # Authentication
 
-POST /api/signup - Register a new user
-POST /api/login - Authenticate user and get token
+### POST /api/signup - Register a new user
+### POST /api/login - Authenticate user and get token
 
 # Books
 
-GET /api/books - Get all books (with pagination and filters)
-GET /api/books/:id - Get book details by ID
-POST /api/books - Add a new book (Authenticated)
-GET /api/search?q=query - Search books by title or author
+### GET /api/books - Get all books (with pagination and filters)
+### GET /api/books/:id - Get book details by ID
+### POST /api/books - Add a new book (Authenticated)
+### GET /api/search?q=query - Search books by title or author
 
 # Reviews
 
-POST /api/books/:id/reviews - Add a review to a book (Authenticated)
-PUT /api/reviews/:id - Update a review (Authenticated)
-DELETE /api/reviews/:id - Delete a review (Authenticated)
+### POST /api/books/:id/reviews - Add a review to a book (Authenticated)
+### PUT /api/reviews/:id - Update a review (Authenticated)
+### DELETE /api/reviews/:id - Delete a review (Authenticated)
 
 # Example Requests
 
